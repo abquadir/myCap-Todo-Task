@@ -1,0 +1,25 @@
+body{
+    background-image: url('../img/todoback.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+#list{
+    font-size: 18px;
+}
+#list:nth-child(odd){
+    background-color: #78909C;
+    color: white;
+}
+#list:nth-child(even){
+    background-color: #616161;
+    color: white;
+}
+#list span i{
+    cursor: pointer;
+}
+#list span i:hover{
+   color: #EC407A;
+}
